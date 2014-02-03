@@ -400,6 +400,7 @@ margin-left: 1%;
 	border-radius: 5px;
 	padding-bottom: 2.1%;
 	}
+
 .two_col1{
 	margin-top: 2.1%;
 	width:48.4%;
@@ -887,7 +888,22 @@ margin-bottom: 2.1%;
 	
 	
 }
+.services{
+width: 96%;
+	/*height: 400px;*/
+	float:right; 
+	/*margin-top: 2.1%;*/
+	margin-right: 2.1%;
+	margin-left: 2%;
+	display:block;
+	position: relative;
+	background-color: #fff;
+}
 
+.contacts{
+	list-style-type:none;
+	margin-left: -2%;
+}
 /*********************left menu**********************/
 #cssmenu {
   background: #333;
@@ -923,3 +939,32 @@ margin-bottom: 2.1%;
   padding-bottom: 8px;
 }
 .orange a li {background:#2580a2 !important;}
+/***********products*********************/
+.pr_list{
+text-align: left;
+	position:relative;
+	text-align: left;
+	/*background-color: #f0f0f2;*/
+	border-radius: 5px;
+	padding-bottom: 2.1%;
+	
+	
+}
+.pr_list a:hover,a:active,a:visited {color:#fff;}
+
+.content_pr_list{
+	width: 96%;
+}
+.pr_list_img{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding-bottom: 2.1%;
+	overflow: hidden;
+
+}
+/*фиксированное положение*/
+/*.pr_button{
+	position: fixed; 
+    left: 0; bottom: 0;}*/
