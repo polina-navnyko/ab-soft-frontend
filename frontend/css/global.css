@@ -381,6 +381,7 @@ font-family: Helvetica;
 font-size: 120%;
 color:#01347f;
 font-weight: bold;
+margin-top:1.1%;
 margin-bottom: 1.1%;
 }
 .news_O{
@@ -388,6 +389,7 @@ font-family: Helvetica;
 font-size: 120%;
 color:#f67200;
 font-weight: bold;
+margin-top:1.1%;
 margin-bottom: 1.1%;
 }
 
@@ -925,12 +927,11 @@ width: 96%;
 #cssmenu {
   background: #333;
   list-style: none;
- /* margin: 0;
-  padding: 0;*/
   width: 100%;
   float:right;
   border: 1px solid #c0c0c1;
   border-radius: 5px;
+  margin-bottom: 2.1%;
 
 }
 #cssmenu li {
@@ -998,17 +999,11 @@ color:#2d2d2d;
 font-weight: bold;
 line-height: 1.5;
  padding-bottom: 1%;
-
-
 }
+.d_grey{color:#2d2d2d;}
 .pr a:link,a:hover,a:active,a:visited {color:#214883;}
-*//***************partners*****************
-.full_line{
-	/*width:100%;*/
-	padding-bottom: 2.1%;
-	float: left;
-	margin-left: 0;
-}
+/***************partners*****************/
+
 .button4{
 font:normal 12px Tahoma, Geneva, sans-serif;
 font-style:normal;
@@ -1039,4 +1034,49 @@ position: relative;
 	
 	overflow: hidden;
 
+}
+.left_img{
+	max-width: 14%;
+	float:left;
+	
+	display:block;
+	position: relative;
+	margin-left:2.1%;
+}
+.right_text{
+	width: 78%;
+	float:right; 
+	margin-right: 2.1%;
+	margin-left: 2%;
+	display:block;
+	position: relative;
+	background-color: #fff;
+}
+
+.content_pr{
+	width: 62%;
+	float:right; 
+	margin-right: 2.1%;
+	margin-left: 2%;
+	display:block;
+	position: relative;
+	background-color: #fff;
+}
+.right_menu_pr{
+	width: 30%;
+	float:left;
+	margin-left: 2.1%;
+	display:block;
+	position: relative;
+	margin-bottom: 4.1%;
+}
+
+/****************testimonials****************/
+.testimonials{
+text-align: left;
+font-family: Tahoma;
+font-size: 82%;
+color:#224983;
+line-height: 1.5;
+margin-top: 21px !important;
 }
