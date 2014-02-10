@@ -1,3 +1,4 @@
+a {text-decoration: none;}
 /***********menu***********/
 #fdw nav select {
 	display:none; /* this is just for the mobile display */
@@ -537,8 +538,9 @@ color:#f67200;
 font-weight: bold;
 margin-top:1.1%;
 margin-bottom: 1.1%;
-}
 
+}
+.news_o a:link, a:active , a:hover, a:visited {text-decoration: none;}
 
 .left_col{
 	width:64.4%;
