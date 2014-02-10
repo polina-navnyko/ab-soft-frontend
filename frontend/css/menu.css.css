@@ -30,20 +30,6 @@ ul.vmenu {
 	padding: 0;
 	overflow:hidden
 }
-/*ul.vmenu li.home {background:url(../images/home-icon.png) 12px 12px no-repeat}
-ul.vmenu li.home:hover {background:url(../images/home-icon.png) 12px -21px no-repeat}
-
-ul.vmenu li.about-us {background:url(../images/about-us-icon.png) 12px 12px no-repeat}
-ul.vmenu li.about-us:hover {background:url(../images/about-us-icon.png) 12px -23px no-repeat}
-
-ul.vmenu li.gallery {background:url(../images/gallery-icon.png) 12px 13px no-repeat}
-ul.vmenu li.gallery:hover {background:url(../images/gallery-icon.png) 12px -20px no-repeat}
-
-ul.vmenu li.portfolio {background:url(../images/portfolio-icon.png) 12px 11px no-repeat}
-ul.vmenu li.portfolio:hover {background:url(../images/portfolio-icon.png) 12px -22px no-repeat}
-
-ul.vmenu li.contact {background:url(../images/contact-icon.png) 12px 11px no-repeat}
-ul.vmenu li.contact:hover {background:url(../images/contact-icon.png) 12px -22px no-repeat}*/
 
 ul.vmenu li a {
 	/*background: url(../images/bg-li-a.png) repeat-x;*/
