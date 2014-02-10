@@ -624,11 +624,16 @@ margin-bottom: 1.1%;
 	color: rgb(1, 52, 127)!important;
 	display:block !important;
 	z-index: 999;
+	
+
 
 }
-.col1_f a:link {color: rgb(1, 52, 127)}
-.col1_f a:active {color: rgb(1, 52, 127)}
-.col1_f a:visited {color: rgb(1, 52, 127)}
+.col1_f a:link {color: rgb(1, 52, 127);
+text-decoration: none;}
+.col1_f a:active {color: rgb(1, 52, 127);
+text-decoration: none;}
+.col1_f a:visited {color: rgb(1, 52, 127);
+text-decoration: none;}
 /*.color_col1_f{color: rgb(1, 52, 127);}*/
 .col2_f{
 	
