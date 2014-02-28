@@ -1153,7 +1153,9 @@ line-height: 1.5;
  padding-bottom: 1%;
 }
 .d_grey{color:#2d2d2d;}
-.pr a:link,a:hover,a:active,a:visited {color:#214883;}
+
+.pr a:link,a:hover,a:active,a:visited{color:#214883 ;}
+
 /***************partners*****************/
 
 .button4{
@@ -1230,7 +1232,7 @@ font-family: Tahoma;
 font-size: 72%;
 color:#757576;
 line-height: 1.5;
-
+padding: 4%;
 }
 .testimonials_block{
 background-color: #f0f0f2;
@@ -1276,3 +1278,22 @@ padding-left:2%;
 	float: left;
 	margin-top: 2.1%;
 }
+/*************1394********************/
+.b_img{
+	width: 100%;
+	height: 200px;
+	margin-bottom: 2%;
+	border: solid 1px #c1c1c1;
+	display:block;
+ 	}
+.c_img{
+	height:100px ;
+	width: 300px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 4.1%;
+	margin-bottom: 1%;
+	padding-bottom: 2.1%;
+	overflow: hidden;
+
+ }
