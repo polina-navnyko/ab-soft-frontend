@@ -1338,6 +1338,7 @@ Not advised to edit stuff below this line
   height: 16px;
 }/* .formoid-default-skyblue color scheme begin */
 
+/**************BUTTON******************/
 .formoid-default-skyblue input[type=submit],
 .formoid-default-skyblue .element-file .button {
 	background-color: #f67300;
@@ -1388,8 +1389,30 @@ Not advised to edit stuff below this line
 	background-image: linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) );
 	transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
-
-
+/************WRONG******************/
+.wrong_formoid-default-skyblue input[type=text],
+.wrong_formoid-default-skyblue input[type=password],
+.wrong_formoid-default-skyblue input[type=email],
+.wrong_formoid-default-skyblue input[type=url],
+.wrong_formoid-default-skyblue input[type=number],
+.wrong_formoid-default-skyblue input[type=date],
+.wrong_formoid-default-skyblue input[type=number],
+.wrong_formoid-default-skyblue input[type=email],
+.wrong_formoid-default-skyblue textarea:focus,
+.wrong_formoid-default-skyblue .element-file .file_text:focus{
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #de0304;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #de0304;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #de0304;
+  border-color: #de0304;
+  /*background-image: -ms-linear-gradient(top, #444444, #999999); /* IE10 */
+  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#22000000', EndColorStr='#00FFFFFF'); /* IE6–IE9 */
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* FF3.6 */
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* Chrome 10+, Saf5.1+ */
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) ); /* Opera 11.10+ */
+  background-image: linear-gradient(top, rgba(0,0,0,0.19), rgba(0,0,0,0) 5px, rgba(0,0,0,0) );
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
 
 /* bootstrap */
 .dropdown-menu li > a:hover,

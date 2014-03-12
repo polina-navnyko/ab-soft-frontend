@@ -84,24 +84,36 @@
         
         <div class="content">
             <div class="right_col services">
-              <!-- <div class="pr_img"></div> -->
-                <!-- <img src="./img/pr.png" class="pr_img" alt="" title="" /> -->
+               <h3 class="pr_tag">Order Online - Step 2</h3>
+                <hr class="hr"/>
                 <article class="text_pr">
-                   <h3 class="pr_tag">Support</h3>
-                   <hr class="hr"/>
-                   Our off-the-shelf and custom products are fully supported by A&B's dedicated team of engineers and we are committed to providing you with the quickest response possible to your questions. If you have a problem or question, use the following form to submit your request. In order to ensure a quick and effective responce, we ask that you provide as many details as possible. We will make every effort to respond to you within one business day.
+                    <h3 class="tag_pr">Personal Details</h3>
+                   Please enter your personal details in the fields below. Fields with a star (*) are required.
                 
                 </article>
               
               <form class="formoid-default-skyblue" style="background-color:#FFFFFF;font-size:14px;font-family:'Helvetica',Arial,Verdana,sans-serif;color:#666666;max-width:480px;min-width:150px" method="post">
-              <div class="element-input" ><label class="title">Name</label><input class="large" type="text" name="input" /></div>
-              <div class="element-input" ><label class="title">Company</label><input class="large" type="text" name="input1" /></div>
-              <div class="element-input" ><label class="title">Country</label><input class="large" type="text" name="input2" /></div>
-              <div class="element-number" ><label class="title">Phone number</label><input class="large" type="text" min="0" max="100" name="number"  value=""/></div>
-              <div class="element-input" ><label class="title">Operating system</label><input class="large" type="text" name="input3" /></div>
-              <div class="element-email" ><label class="title">Email</label><input class="large" type="email" name="email" value="" /></div>
-              <div class="element-textarea" ><label class="title">Description of your problem</label><textarea class="medium" name="textarea" cols="20" rows="5" ></textarea></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Name<span class="required">*</span></label><input class="large" type="text" name="input" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Company</label><input class="large" type="text" name="input1" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Address Line 1<span class="required">*</span></label><input class="large" type="text" name="input2" /></div>
+              <div class="element-input" ><label class="title">Address Line 2</label><input class="large" type="text" name="input2" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">City<span class="required">*</span></label><input class="large" type="text" name="input3" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">State/Province<span class="required">*</span></label><input class="large" type="text" name="input3" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Zip/Postal code<span class="required">*</span></label><input class="large" type="text" name="input3" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Country<span class="required">*</span></label><input class="large" type="text" name="input" /></div>
+              <div class="element-select" ><label class="title">Select</label><div class="large"><span><select name="select" >
+              <option value="options 1">options 1</option><br/>
+              <option value="options 2">options 2</option><br/>
+              <option value="options 3">options 3</option><br/></select><i></i></span></div></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Email<span class="required">*</span></label><input class="large" type="email" name="email" value="" /></div>
+              <div class="wrong_formoid-default-skyblue" ><label class="title">Phone number<span class="required">*</span></label><input class="large" type="text" min="0" max="100" name="number"  value=""/></div>
               <div class="submit"><input type="submit" value="Submit"/></div>
+
+
+              
+
+   
+
               </form>
               
 
@@ -135,5 +147,33 @@
     </div><!-- end of center -->
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/menu.js"></script>
+    <!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <!-- <script src="js/slider/jquery.min.js"></script> -->
+    <!-- <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+    <!-- FlexSlider -->
+    <script defer src="js/slider/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+    $('.flexslider').flexslider({
+    animation: "slide",
+    start: function(slider){
+    $('body').removeClass('loading');
+    }
+    });
+    });
+    </script>
+    <!-- Syntax Highlighter -->
+    <script type="text/javascript" src="js/slider/shCore.js"></script>
+    <script type="text/javascript" src="js/slider/shBrushXml.js"></script>
+    <script type="text/javascript" src="js/slider/shBrushJScript.js"></script>
+    <!-- Optional FlexSlider Additions -->
+    <script src="js/slider/jquery.easing.js"></script>
+    <script src="js/slider/jquery.mousewheel.js"></script>
+    <script defer src="js/slider/demo.js"></script>
   </body>
 </html>

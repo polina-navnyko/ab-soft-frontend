@@ -6,16 +6,14 @@
     <link href="css/global.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/form.css" media="all" />
+ 
   </head>
   <body>
      <div align="center">
       <div  class="shadow">
         <div class="header">
           <div>
-            <!-- <a href="#" > -->
-              <img src="./img/ab-logo.png" class="logo" >
-            <!-- </a> -->
+            <img src="./img/ab-logo.png" class="logo" >
           </div>
 
           <div class="button_log"><a href="#" ><img src="./img/in.png" class="log_img"></a></div>
@@ -25,15 +23,11 @@
             </form>
           </div>
 
-          
-         <!--  <div class="button">Licence key center</div> -->
-          
-
-          
-          
+         
           <div class="tag_grey"><p>Global leader in industrial camera software</p></div>
         </div>
-        <div class="menu">   <!--menu-->
+        <!--menu-->
+        <div class="menu">   
         <div class="right_menu gradient1">
           <div id="fdw">
             <!--nav-->
@@ -82,33 +76,49 @@
         
         <!--content-->
         
-        <div class="content">
-            <div class="right_col services">
-              <!-- <div class="pr_img"></div> -->
-                <!-- <img src="./img/pr.png" class="pr_img" alt="" title="" /> -->
-                <article class="text_pr">
-                   <h3 class="pr_tag">Support</h3>
-                   <hr class="hr"/>
-                   Our off-the-shelf and custom products are fully supported by A&B's dedicated team of engineers and we are committed to providing you with the quickest response possible to your questions. If you have a problem or question, use the following form to submit your request. In order to ensure a quick and effective responce, we ask that you provide as many details as possible. We will make every effort to respond to you within one business day.
-                
-                </article>
-              
-              <form class="formoid-default-skyblue" style="background-color:#FFFFFF;font-size:14px;font-family:'Helvetica',Arial,Verdana,sans-serif;color:#666666;max-width:480px;min-width:150px" method="post">
-              <div class="element-input" ><label class="title">Name</label><input class="large" type="text" name="input" /></div>
-              <div class="element-input" ><label class="title">Company</label><input class="large" type="text" name="input1" /></div>
-              <div class="element-input" ><label class="title">Country</label><input class="large" type="text" name="input2" /></div>
-              <div class="element-number" ><label class="title">Phone number</label><input class="large" type="text" min="0" max="100" name="number"  value=""/></div>
-              <div class="element-input" ><label class="title">Operating system</label><input class="large" type="text" name="input3" /></div>
-              <div class="element-email" ><label class="title">Email</label><input class="large" type="email" name="email" value="" /></div>
-              <div class="element-textarea" ><label class="title">Description of your problem</label><textarea class="medium" name="textarea" cols="20" rows="5" ></textarea></div>
-              <div class="submit"><input type="submit" value="Submit"/></div>
-              </form>
-              
+        <div class="content_pr_list">
+            <h3 class="pr_tag">Pricing</h3>
+            <hr class="hr"/>
+            <div class="text full">
+              <table class="table">
+              <tr>
+              <th class="th">GigESim 1.0</th>
+              <th class="th">Price</th>
+              <th class="th">Qty</th>
+              </tr>
 
+              <tr>
+              <td class="td">GigESim GigE Vision Simulation Software</td>
+              <td class="td">495$</td>
+              <td class="td"><select class="select">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select></td>
+              </tr>
 
+              <tr>
+              <td class="td">GigESim Runtime License</td>
+              <td class="td">95$</td>
+              <td class="td"><select class="select">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select></td>
+              </tr>
 
-            </div><!-- end of  content_pr-->
-         
+              <tr>
+              <td class="td">ActiveGigE+GigESim software bundle</td>
+              <td class="td">795$</td>
+              <td class="td"><select class="select">
+                <option value="0" selected>0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select></td>
+              </tr>
+              </table>
+               <a href="#"><div class="button6">Buy</div></a>
+            </div>
         </div><!-- end of content -->
                      
 
@@ -133,7 +143,11 @@
         </div>
       </div>
     </div><!-- end of center -->
+    <!--menu js-->
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/menu.js"></script>
+    
+   
+   
   </body>
 </html>

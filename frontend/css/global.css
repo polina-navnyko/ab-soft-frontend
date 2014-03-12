@@ -1298,3 +1298,55 @@ padding-left:2%;
 	overflow: hidden;
 
  }
+
+ /*************TABLE*******************/
+ .table{
+ 	padding: 0.5%;
+ 	border: solid 1px #bbbaba;
+ 	margin: 0 auto;
+ 	width:80%;
+
+ }
+ .th{
+ 	padding: 1%;
+ 	background-color: #e3edfc;
+ 	font-size: 14px;
+}
+.td{
+	padding: 1%;
+	background-color: #f4f4f4;
+}
+.select{
+	padding: 1px;
+	width: 100%;
+	color:#676767;
+}
+.button6{
+font:normal 12px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#f67200;
+border:0px solid #f67300;
+text-shadow:0px -1px 10px #f67600;
+box-shadow:2px 2px 5px #999999;
+-moz-box-shadow:2px 2px 5px #999999;
+-webkit-box-shadow:2px 2px 5px #999999;
+border-radius:5px 5px 5px 5px;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+width:12%px;
+padding:5px 10px;
+cursor:pointer;
+margin-top: 4.1%;
+margin-right: 10%;
+float: right;
+position:relative;
+width: 5%;
+text-align: center;
+}
+.button6:active{
+/*cursor:pointer;*/
+position:relative;
+top: 1px;
+}
+
